@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(172, 247, 221);
+            padding: 0 10em 0 10em;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        // Name
+        let name=document.createElement("h1");
+        name.textContent="Harshitha Emani";
+        name.style.textAlign="center";
+
+        document.body.appendChild(name);
+
+        // Professional Summary
+        let summary=document.createElement("h2");
+        summary.textContent="Professional Summary";
+        summary.style.color="navy";
+        
+        document.body.appendChild(summary);
+        
+        let protext=document.createElement("p");
+        protext.textContent="Aspiring software engineer with a focus on learning architecture, Algorithms, Object Oriented programming (OOP), and design patterns. Currently developing skills in Java, Linux, and networking concepts, while exploring key areas like big data, machine learning, and open-source technologies. Eager to contribute to designing and building scalable, real-time systems for pricing, execution, and risk management in fast-paced environments like Goldman Sachs. Passionate about understanding market flow, financial systems, and infrastructure to drive strategic solutions. Committed to mastering communication skills, collaborating on complex transactions, and aligning technical execution with business objectives in finance and beyond.";
+        protext.style.color="chocolate";
+
+        document.body.appendChild(protext);
+
+        // Education
+        let edu=document.createElement("h2");
+        edu.textContent="Education";
+        edu.style.color="navy";
+
+        document.body.appendChild(edu);
+
+        let edu1=document.createElement("p");
+        edu1.textContent="Bachelor Of Technology";
+        edu1.style.color="blue";
+        edu1.style.fontWeight="600";
+
+        document.body.appendChild(edu1);
+
+        let edu1a=document.createElement("p");
+        edu1a.textContent="Electronics and Communication Engineering - Kallam HaranadhaReddy Institute Of Technology";
+        edu1a.style.color="chocolate";
+
+        document.body.appendChild(edu1a);
+
+        let edu2=document.createElement("p");
+        edu2.textContent="Intermediate";
+        edu2.style.color="blue";
+        edu2.style.fontWeight="600";
+
+        document.body.appendChild(edu2);
+
+        let edu2a=document.createElement("p");
+        edu2a.textContent="MPC - Bhashyam Junior College";
+        edu2a.style.color="chocolate";
+
+        document.body.appendChild(edu2a);
+
+        // Skills
+        let skills=document.createElement("h2");
+        skills.textContent="Technical Skills";
+        skills.style.color="navy";
+
+        document.body.appendChild(skills);
+
+        var ts=document.createElement("ul");
+        
+        skill=["Programming Language: Python", "Web Technologies: HTML, CSS, JavaScript", "FrameWork: BootStrap", "DataBase: MYSQL", "Developer Tools: VS Code (Virtual Studio Code), GitHub", "Version Control: Git"];
+        for(i=0;i<skill.length;i++){
+            var li=document.createElement("li");
+            li.textContent=skill[i];
+            li.style.color="red";
+            ts.appendChild(li);
+        }
+        document.body.appendChild(ts);
+
+        // Declaration
+        let declaration=document.createElement("h2");
+        declaration.textContent="Declaration";
+        declaration.style.color="navy";
+
+        document.body.appendChild(declaration);
+
+        let dec=document.createElement("p");
+        dec.textContent="I hereby declare that the information furnished above is true to the best of my knowledge.";
+        dec.style.color="chocolate";
+
+        document.body.appendChild(dec);
+
+        let dec1=document.createElement("p");
+        dec1.textContent="Harshitha Emani";
+        dec1.style.color="green";
+        dec1.style.fontWeight="600";
+        dec1.style.fontSize="1.2em";
+        dec1.style.textAlign="right";
+        dec1.style.fontFamily="cursive";
+
+        document.body.appendChild(dec1);
+    </script>
+</body>
+</html>
